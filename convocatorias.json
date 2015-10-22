@@ -1,32 +1,60 @@
 {
-    "convocatorias": [
-        {
-            "title": "NOMBRE DE LA CONVOCATORIA",
-            "description": "DESCRIPCIÃN DEL LA CONVOCATORIA",
-            "kind": "test.png",
-            "price": 10.5,
-            "img": "URL",
-            "date": "2015-11-02",
-            "time": "08:02",
-            "address": "C/ Boquerón",
-            "coordinates": {
-                "latitude": 30.3,
-                "longitude": 40
-            }
-        },
-        {
-            "title": "CONVOCATORIA1",
-            "description": "DESCRIPCIÃN DEL LA CONVOCATORIA",
-            "kind": "TIPO",
-            "price": 10.5,
-            "img": "test.png",
-            "date": "2015-11-02",
-            "time": "08:02",
-            "address": "C/ Boquerón",
-            "coordinates": {
-                "latitude": 30.3,
-                "longitude": 40
-            }
-        }
-    ]
+  "convocatorias": [
+    {
+      "title": "Innovación digital social",
+      "description": "Conferenciante: Kunio Suzuki, Director de Innovación de Fujitsu en España. Salón de Actos de la ETSIIT",
+      "kind": "Charla",
+      "price": "0",
+      "img": " ",
+      "date": "2015-10-27",
+      "time": "11:30",
+      "address": "Calle Periodista Daniel Saucedo Aranda, s/n, 18071 Granada",
+      "coordinates": {
+        "latitude": "37.1970954",
+        "longitude": "-3.6245173"
+      }
+    },
+    {
+      "title": "Innovación digital social",
+      "description": "Conferenciante: Kunio Suzuki, Director de Innovación de Fujitsu en España. Salón de Actos de la ETSIIT",
+      "kind": "Charla",
+      "price": "0",
+      "img": " ",
+      "date": "2015-10-27",
+      "time": "11:30",
+      "address": "Calle Periodista Daniel Saucedo Aranda, s/n, 18071 Granada",
+      "coordinates": {
+        "latitude": "37.1977502",
+        "longitude": "-3.6237955"
+      }
+    },
+    {
+      "title": "Regulated Grammars and Automata",
+      "description": "Se informa a toda la comunidad universitaria que el próximo miércoles 28 de octubre, a las 12:00h y en el Salón de Grados de la ETS Ingenierías Informática y de Telecomunicación, se celebará la conferencia \"Regulated Grammars and Automata \", a cargo del Prof. Alexander Meduna, de la Faculty of Information Technology de la Brno University of Technology (Brno, República Checa). Dicha conferencia se enmarca dentro del convenio bilateral Erasmus suscrito entre la ETSIIT y la Faculty of Information Technology de la Brno University of Technology.\n\nA continuación se incluye un breve resumen de la presentación: In essence, regulated grammars and automata are based upon classical grammars and automata extended by an additional mathematical mechanism that prescribes the use of rules during the generation of their languages. From a practical viewpoint, an important advantage of these models consists in controlling their language-defining process and, therefore, operating in a more deterministic way than general models, which perform their derivations in a quite unregulated way. Perhaps even more significantly, the regulated versions of language models are stronger than their unregulated versions. Considering these advantages, it comes as no surprise that formal language theory has paid an incredibly high attention to such regulated formal models, which represent the principal subject of the talk. The author will divide it into two parts. In the first part, Prof. Meduna will introduce the following monograph that has been published by Springer in 2014:\n\nAlexader Meduna and Petr Zemek: Regulated Grammars and Automata, Springer, New York, 694 pages, 2014.\n\nThis monograph represents an in-depth treatment of regulated grammars and automata. The author will talk about the motivation behind this book and discuss its purpose, focus, approach, use, and target audience. He will also summarize its contents and coverage. In the second part, Prof. Meduna will discuss a type of regulated grammars to which a whole chapter in the monograph is dedicated: one-sided random context grammars. They represent regulated grammars based upon context-free grammars, where a set of permitting symbols and a set of forbidding symbols are attached to every rule, and the set of rules is divided into the set of left random context rules and the set of right random context rules. A left random context rule can rewrite a nonterminal if each of its permitting symbols occurs to the left of the rewritten symbol in the current sentential form while each of its forbidding symbols does not occur there. A right random context rule is applied analogically except that the symbols are examined to the right of the rewritten symbol. Apart from this, these grammars work just like context-free grammars. The author will discuss these regulated grammars in detail by providing established results and mentioning open problems. .",
+      "kind": "Charla",
+      "price": "0",
+      "img": " ",
+      "date": "2015-10-28",
+      "time": "12:00",
+      "address": "Calle Periodista Daniel Saucedo Aranda, s/n, 18071 Granada",
+      "coordinates": {
+        "latitude": "37.1970954",
+        "longitude": "-3.6245173"
+      }
+    },
+    {
+      "title": "DevFest GDG",
+      "description": "Más información en http://devfest.gdggranada.com/",
+      "kind": "DevFest GDG",
+      "price": "0",
+      "img": " ",
+      "date": "2015-11-09",
+      "time": "09:00",
+      "address": "Calle Periodista Daniel Saucedo Aranda, s/n, 18071 Granada",
+      "coordinates": {
+        "latitude": "37.1970954",
+        "longitude": "-3.6245173"
+      }
+    }
+  ]
 }
