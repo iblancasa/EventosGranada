@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '0.10'
+branches:
+  only:
+  - master
+after_success:
+  - git config --global user.email "iblancasa@gmail.com"
+  - git config --global user.name "Israel Blancas"
+  - git clone -b gh-pages https://iblancasa:${GH_TOKEN}@github.com/iblancasa/EventosGranada.git gh
+  - cp convocatorias.json ./gh/convocatorias.json
+  - cd gh
+  - git add convocatorias.json
+  - git commit -m date
+  - git push origin gh-pages
