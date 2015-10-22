@@ -1,0 +1,14 @@
+{
+  "convocatorias": "object",
+  "title": "string",
+  "description": "string",
+  "kind": "string",
+  "price": "number",
+  "img": "string",
+  "date": "string",
+  "time": "string",
+  "address": "string",
+  "coordinates": "object",
+  "latitude": "number",
+  "longitude": "number"
+}
