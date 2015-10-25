@@ -1,0 +1,21 @@
+
+/* Hoja de estilos de EventosGranada*/
+
+
+fieldset{
+    padding-left: 20px;
+}
+input{
+    margin-bottom: 10px;
+}
+
+
+thead{
+    font-weight: bold;
+}
+
+
+#jsonSalida {
+    height: 600px;
+    max-height: 1000px;
+}
